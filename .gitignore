@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/code,intellij,visualstudiocode
 
 ### Code ###
@@ -42,6 +41,8 @@ cmake-build-debug/
 ## Plugin-specific files:
 
 # IntelliJ
+
+.idea/workspace.xml
 /out/
 
 # mpeltonen/sbt-idea plugin
@@ -83,3 +84,14 @@ fabric.properties
 
 
 # End of https://www.gitignore.io/api/code,intellij,visualstudiocode
+
+## Default
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+
+.flutter-plugins
